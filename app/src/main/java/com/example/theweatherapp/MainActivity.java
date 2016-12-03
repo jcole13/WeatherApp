@@ -215,8 +215,8 @@ public class MainActivity extends AppCompatActivity {
             String data = ( (new WeatherhttpClient()).getWeatherData(params[0]));
 
             weather = JSONWeatherParser.getWeather(data);
-            Log.v("Description: ", weather.currentcondition.getDescription());
-            Log.v("Icon Code: ", weather.currentcondition.getIcon());
+            //Log.v("Description: ", weather.currentcondition.getDescription());
+            //Log.v("Icon Code: ", weather.currentcondition.getIcon());
 
 
             return weather;
