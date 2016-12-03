@@ -6,7 +6,7 @@ import org.json.JSONObject;
 /**
  * Created by Jared Cole on 11/27/2016.
  */
-
+//JSON Getters
 public class Utils {
     public static final String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?q=";
     public static final String ICON_URL = "http://openweathermap.org/img/w/";
